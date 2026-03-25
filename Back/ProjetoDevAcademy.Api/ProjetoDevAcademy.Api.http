@@ -1,0 +1,6 @@
+@ProjetoDevAcademy.Api_HostAddress = http://localhost:5148
+
+GET {{ProjetoDevAcademy.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

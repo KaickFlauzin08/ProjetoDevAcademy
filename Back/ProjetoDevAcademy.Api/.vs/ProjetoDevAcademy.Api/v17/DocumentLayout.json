@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\49240356886\\source\\repos\\ProjetoDevAcademy\\Back\\ProjetoDevAcademy.Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC63AE0-E2FA-4946-91D2-B81B1074F1D6}|ProjetoDevAcademy.Api.csproj|c:\\users\\49240356886\\source\\repos\\projetodevacademy\\back\\projetodevacademy.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC63AE0-E2FA-4946-91D2-B81B1074F1D6}|ProjetoDevAcademy.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC63AE0-E2FA-4946-91D2-B81B1074F1D6}|ProjetoDevAcademy.Api.csproj|c:\\users\\49240356886\\source\\repos\\projetodevacademy\\back\\projetodevacademy.api\\controllers\\cursoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC63AE0-E2FA-4946-91D2-B81B1074F1D6}|ProjetoDevAcademy.Api.csproj|solutionrelative:controllers\\cursoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC63AE0-E2FA-4946-91D2-B81B1074F1D6}|ProjetoDevAcademy.Api.csproj|c:\\users\\49240356886\\source\\repos\\projetodevacademy\\back\\projetodevacademy.api\\migrations\\20260320122407_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC63AE0-E2FA-4946-91D2-B81B1074F1D6}|ProjetoDevAcademy.Api.csproj|solutionrelative:migrations\\20260320122407_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC63AE0-E2FA-4946-91D2-B81B1074F1D6}|ProjetoDevAcademy.Api.csproj|c:\\users\\49240356886\\source\\repos\\projetodevacademy\\back\\projetodevacademy.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC63AE0-E2FA-4946-91D2-B81B1074F1D6}|ProjetoDevAcademy.Api.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC63AE0-E2FA-4946-91D2-B81B1074F1D6}|ProjetoDevAcademy.Api.csproj|c:\\users\\49240356886\\source\\repos\\projetodevacademy\\back\\projetodevacademy.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5DC63AE0-E2FA-4946-91D2-B81B1074F1D6}|ProjetoDevAcademy.Api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC63AE0-E2FA-4946-91D2-B81B1074F1D6}|ProjetoDevAcademy.Api.csproj|c:\\users\\49240356886\\source\\repos\\projetodevacademy\\back\\projetodevacademy.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC63AE0-E2FA-4946-91D2-B81B1074F1D6}|ProjetoDevAcademy.Api.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC63AE0-E2FA-4946-91D2-B81B1074F1D6}|ProjetoDevAcademy.Api.csproj|c:\\users\\49240356886\\source\\repos\\projetodevacademy\\back\\projetodevacademy.api\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC63AE0-E2FA-4946-91D2-B81B1074F1D6}|ProjetoDevAcademy.Api.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20260320122407_init.cs",
+              "DocumentMoniker": "C:\\Users\\49240356886\\source\\repos\\ProjetoDevAcademy\\Back\\ProjetoDevAcademy.Api\\Migrations\\20260320122407_init.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260320122407_init.cs",
+              "ToolTip": "C:\\Users\\49240356886\\source\\repos\\ProjetoDevAcademy\\Back\\ProjetoDevAcademy.Api\\Migrations\\20260320122407_init.cs",
+              "RelativeToolTip": "Migrations\\20260320122407_init.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T12:24:07.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CursosController.cs",
+              "DocumentMoniker": "C:\\Users\\49240356886\\source\\repos\\ProjetoDevAcademy\\Back\\ProjetoDevAcademy.Api\\Controllers\\CursosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CursosController.cs",
+              "ToolTip": "C:\\Users\\49240356886\\source\\repos\\ProjetoDevAcademy\\Back\\ProjetoDevAcademy.Api\\Controllers\\CursosController.cs",
+              "RelativeToolTip": "Controllers\\CursosController.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAswD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T11:50:09.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\49240356886\\source\\repos\\ProjetoDevAcademy\\Back\\ProjetoDevAcademy.Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\49240356886\\source\\repos\\ProjetoDevAcademy\\Back\\ProjetoDevAcademy.Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAYwEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T11:23:03.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\49240356886\\source\\repos\\ProjetoDevAcademy\\Back\\ProjetoDevAcademy.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\49240356886\\source\\repos\\ProjetoDevAcademy\\Back\\ProjetoDevAcademy.Api\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-20T11:21:22.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\49240356886\\source\\repos\\ProjetoDevAcademy\\Back\\ProjetoDevAcademy.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\49240356886\\source\\repos\\ProjetoDevAcademy\\Back\\ProjetoDevAcademy.Api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAE4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T11:20:27.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\49240356886\\source\\repos\\ProjetoDevAcademy\\Back\\ProjetoDevAcademy.Api\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\49240356886\\source\\repos\\ProjetoDevAcademy\\Back\\ProjetoDevAcademy.Api\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T11:18:43.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\49240356886\\source\\repos\\ProjetoDevAcademy\\Back\\ProjetoDevAcademy.Api\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\49240356886\\source\\repos\\ProjetoDevAcademy\\Back\\ProjetoDevAcademy.Api\\Models\\Usuario.cs",
+              "RelativeToolTip": "Models\\Usuario.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAACsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T11:09:54.496Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
