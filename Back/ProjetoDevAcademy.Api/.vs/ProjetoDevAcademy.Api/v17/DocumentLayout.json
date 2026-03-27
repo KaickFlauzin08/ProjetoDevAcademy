@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\49240356886\\source\\repos\\ProjetoDevAcademy\\Back\\ProjetoDevAcademy.Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5DC63AE0-E2FA-4946-91D2-B81B1074F1D6}|ProjetoDevAcademy.Api.csproj|c:\\users\\49240356886\\source\\repos\\projetodevacademy\\back\\projetodevacademy.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DC63AE0-E2FA-4946-91D2-B81B1074F1D6}|ProjetoDevAcademy.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5DC63AE0-E2FA-4946-91D2-B81B1074F1D6}|ProjetoDevAcademy.Api.csproj|c:\\users\\49240356886\\source\\repos\\projetodevacademy\\back\\projetodevacademy.api\\controllers\\cursoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5DC63AE0-E2FA-4946-91D2-B81B1074F1D6}|ProjetoDevAcademy.Api.csproj|solutionrelative:controllers\\cursoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DC63AE0-E2FA-4946-91D2-B81B1074F1D6}|ProjetoDevAcademy.Api.csproj|c:\\users\\49240356886\\source\\repos\\projetodevacademy\\back\\projetodevacademy.api\\migrations\\20260320122407_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DC63AE0-E2FA-4946-91D2-B81B1074F1D6}|ProjetoDevAcademy.Api.csproj|solutionrelative:migrations\\20260320122407_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5DC63AE0-E2FA-4946-91D2-B81B1074F1D6}|ProjetoDevAcademy.Api.csproj|c:\\users\\49240356886\\source\\repos\\projetodevacademy\\back\\projetodevacademy.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5DC63AE0-E2FA-4946-91D2-B81B1074F1D6}|ProjetoDevAcademy.Api.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC63AE0-E2FA-4946-91D2-B81B1074F1D6}|ProjetoDevAcademy.Api.csproj|c:\\users\\49240356886\\source\\repos\\projetodevacademy\\back\\projetodevacademy.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC63AE0-E2FA-4946-91D2-B81B1074F1D6}|ProjetoDevAcademy.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC63AE0-E2FA-4946-91D2-B81B1074F1D6}|ProjetoDevAcademy.Api.csproj|c:\\users\\49240356886\\source\\repos\\projetodevacademy\\back\\projetodevacademy.api\\migrations\\20260320122407_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC63AE0-E2FA-4946-91D2-B81B1074F1D6}|ProjetoDevAcademy.Api.csproj|solutionrelative:migrations\\20260320122407_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5DC63AE0-E2FA-4946-91D2-B81B1074F1D6}|ProjetoDevAcademy.Api.csproj|c:\\users\\49240356886\\source\\repos\\projetodevacademy\\back\\projetodevacademy.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,7 +46,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "20260320122407_init.cs",
               "DocumentMoniker": "C:\\Users\\49240356886\\source\\repos\\ProjetoDevAcademy\\Back\\ProjetoDevAcademy.Api\\Migrations\\20260320122407_init.cs",
               "RelativeDocumentMoniker": "Migrations\\20260320122407_init.cs",
@@ -58,19 +58,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CursosController.cs",
               "DocumentMoniker": "C:\\Users\\49240356886\\source\\repos\\ProjetoDevAcademy\\Back\\ProjetoDevAcademy.Api\\Controllers\\CursosController.cs",
               "RelativeDocumentMoniker": "Controllers\\CursosController.cs",
               "ToolTip": "C:\\Users\\49240356886\\source\\repos\\ProjetoDevAcademy\\Back\\ProjetoDevAcademy.Api\\Controllers\\CursosController.cs",
               "RelativeToolTip": "Controllers\\CursosController.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAswD8AAAAAAAAA",
+              "ViewState": "AQIAACAAAAAAAAAAAAAkwD8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T11:50:09.05Z"
+              "WhenOpened": "2026-03-20T11:50:09.05Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\49240356886\\source\\repos\\ProjetoDevAcademy\\Back\\ProjetoDevAcademy.Api\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
@@ -78,7 +79,8 @@
               "RelativeToolTip": "Controllers\\AuthController.cs",
               "ViewState": "AQIAACAAAAAAAAAAAAAYwEMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T11:23:03.179Z"
+              "WhenOpened": "2026-03-20T11:23:03.179Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -94,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\49240356886\\source\\repos\\ProjetoDevAcademy\\Back\\ProjetoDevAcademy.Api\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
