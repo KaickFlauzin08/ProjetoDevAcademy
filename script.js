@@ -1,127 +1,116 @@
-///Consumindo Api -- CONFIGURAÇÕES GLOBAIS///
-
-const API_URL   = "http://localhost:5148/api";
+const API_URL = "http://localhost:5148/api";
 const TOKEN_KEY = "app_auth_token";
 
-const mensagemBox = document.getElementById("mensagemBox");
-function showMessage(texto, type='error'){
-    if (mensagemBox) return;
-    mensagemBox.textContent = texto;
-    mensagemBox.className = type ==='error' ? 'msg-error' : 'msg-sucess';
-    mensagemBox.style.display = 'block';
-    setTimeout(()=> {mensagemBox.style.display = 'none';}, 4000);
+// Função Global de Mensagem
+function showMessage(texto, type = "error") {
+    const msgBox = document.getElementById("mensagemBox") || document.getElementById("MensagemBox");
+    if (!msgBox) return;
+    
+    msgBox.textContent = texto;
+    msgBox.className = type === "error" ? "msg-error" : "msg-success";
+    msgBox.style.display = "block";
+    msgBox.style.color = type === "error" ? "#ff4d4d" : "#2ecc71"; // Garantia visual
+
+    setTimeout(() => {
+        msgBox.style.display = "none";
+    }, 4000);
 }
 
-//LOGIN
-const loginForm = document.getElementById('formulario-login');
-if(loginForm)
-{
-    const loginEmail = document.getElementById('email');
-    const loginSenha = document.getElementById('senha');
-    const loginBnt = document.getElementById('bnt');
-
-
-    const loginSection = document.getElementById('login-section');
-    const dashboardSection = document.getElementById('dashboard-section');
-    const fetchDataBtn = document.getElementById("fetch-data-btn");
-    const apiDataBox = document.getElementById("api-data");
+// --- LÓGICA DE LOGIN (Página Index.html) ---
+const loginForm = document.getElementById("formulario-login");
+if (loginForm) {
+    const loginEmail = document.getElementById("email");
+    const loginSenha = document.getElementById("senha");
+    const loginBnt = document.getElementById("bnt");
     const logoutBtn = document.getElementById("logout-btn");
 
-    function initIndex(){
-        const token = localStorage.getItem(TOKEN_KEY);
-        if (token){
-            loginSection.classList.add('hidden');
-            dashboardSection.classList.remove('hidden');
-        } else{
-            dashboardSection.classList.add('hidden');
-            loginSection.classList.remove('hidden');
-        }
-
+    // Verifica se já está logado
+    if (localStorage.getItem(TOKEN_KEY)) {
+        window.location.href = "Cadastro-Cursos.html";
     }
 
-    loginForm.addEventListener('submit',async(event) =>{
+    loginForm.addEventListener("submit", async (event) => {
         event.preventDefault();
-        const email = loginEmail.value;
-        const senha = loginSenha.value;
-
-        try{
+        try {
             loginBnt.disabled = true;
-            loginBnt.textContent = "Aguarde......";
+            loginBnt.textContent = "Aguarde...";
 
-            const response = await fetch(`${API_URL}/Auth/login`, {
-                method: 'POST',
-                headers: {'content-Type': "application/json"},
-                body: JSON.stringify({email: email, password: senha})
+            const response = await fetch(`${API_URL}/Auth/Login`, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ email: loginEmail.value, password: loginSenha.value }),
             });
+
             const dados = await response.json();
-            if(!response.ok) throw new Error(dados.mensagem || 'Credenciais inválidas');
-            if(dados.token){
-                localStorage.setItem(TOKEN_KEY,dados.token);
-                initIndex();
-                /* sessionStorage.setItem('userEmail', email); */
+            
+            if (!response.ok) throw new Error(dados.mensagem || "Credenciais inválidas");
+
+            if (dados.token) {
+                localStorage.setItem(TOKEN_KEY, dados.token);
+                window.location.href = "Cadastro-Cursos.html";
             }
-
-        }catch (error){
-            showMessage(error.mensagem, 'error');
-        } finally{
+        } catch (error) {
+            showMessage(error.message, "error");
+        } finally {
             loginBnt.disabled = false;
-            loginBnt.textContent = 'Entrar';
+            loginBnt.textContent = "Entrar";
         }
-        
-});
-function logout(){
-    localStorage.removeItem(TOKEN_KEY);
-    initIndex();
-    apiDataBox.style.display = 'none';
-}
-logoutBtn.addEventListener('click', logout);
-
-initIndex();
-}
-
-//CADASTRO
-const cadastroForm =document.getElementById('registro-login');
-if(cadastroForm){
-    //Se ja tiver conta leva para a pagina do login
-    if(localStorage.getItem(TOKEN_KEY)){
-        window.location.href = 'index.html'
-    }
-    const cadastroNome = document.getElementById('nome');
-    const cadastroEmail = document.getElementById('reg-email');
-    const cadastroSenha = document.getElementById('reg-senha');
-    const ConfirCadastroSenha = document.getElementById('conf-senha');
-    const Role = document.getElementById('role')
-
-    FormRegistro.addEventListener('submit', async (event)=>{
-        event.preventDefault();
-        const nome = cadastroNome.value;
-        const email = cadastroEmail.value;
-        const senha = cadastroSenha.value;
-        const confirme = ConfirCadastroSenha.value;
-        const role = Role.value;
-        
-        if(senha !== confirme){
-            return mostrarMensagem('As senhas não coincidem', 'error');
-        }
-        try{
-            SubmitRegistro.disabled = true;
-            SubmitRegistro.textContent = 'Aguarde......'
-
-            const resposta = await fetch( `${API_URL}/register`,{
-                method: 'POST',
-                headers: {'Content-Type': 'application/json'},
-                body: JSON.stringify({email: email, passwordHash: senha, nome: nome,role })
-            });
-            const dados = await resposta.json();
-
-            if(resposta.ok) throw new Error(dados.mensagem || 'Erro ao criar sua conta');
-            alert('Conta criado com sucesso! Faça seu login.')
-            window.Location.href = 'index.html'
-        }   catch(error){
-            SubmitRegistro.disabled = false;
-            SubmitRegistro.textContent = 'Registrar';
-        };
-
     });
 }
 
+// --- LÓGICA DE CADASTRO (Página Cadastrar.html) ---
+const cadastroForm = document.getElementById("registro");
+if (cadastroForm) {
+    const cadastroNome = document.getElementById("nome");
+    const cadastroEmail = document.getElementById("reg-email");
+    const cadastroSenha = document.getElementById("reg-senha");
+    const confSenha = document.getElementById("conf-senha");
+    const roleInput = document.getElementById("role");
+    const submitBtn = document.getElementById("bnt");
+
+    cadastroForm.addEventListener("submit", async (event) => {
+        event.preventDefault();
+
+        if (cadastroSenha.value !== confSenha.value) {
+            return showMessage("As senhas não coincidem", "error");
+        }
+
+        try {
+            submitBtn.disabled = true;
+            submitBtn.textContent = "Criando conta...";
+
+            const resposta = await fetch(`${API_URL}/Auth/register`, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    email: cadastroEmail.value,
+                    passwordHash: cadastroSenha.value,
+                    nome: cadastroNome.value,
+                    role: roleInput.value || "user", // Valor padrão caso vazio
+                }),
+            });
+
+            const dados = await resposta.json();
+
+            if (!resposta.ok) throw new Error(dados.mensagem || "Erro ao criar conta");
+
+            alert("Conta criada com sucesso! Faça seu login.");
+            window.location.href = "Index.html";
+
+        } catch (error) {
+            showMessage(error.message, "error");
+        } finally {
+            submitBtn.disabled = false;
+            submitBtn.textContent = "Registrar-se";
+        }
+    });
+}
+
+// Botão Logout (se existir na página)
+const logoutBtnGlobal = document.getElementById("logout-btn");
+if (logoutBtnGlobal) {
+    logoutBtnGlobal.addEventListener("click", () => {
+        localStorage.removeItem(TOKEN_KEY);
+        window.location.href = "Index.html";
+    });
+}

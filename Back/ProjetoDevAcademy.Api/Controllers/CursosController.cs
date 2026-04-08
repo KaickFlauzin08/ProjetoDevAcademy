@@ -33,7 +33,7 @@ namespace ProjetoDevAcademy.Api.Controllers
         }
 
         [HttpPost]
-        [Authorize(Roles = "admin , professor")]
+        [Authorize(Roles = "admin,professor")]
         public async Task<IActionResult> CriarCurso(CursoCreateDto cursoCreateDto)
         {
             var newCurso = new Curso

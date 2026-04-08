@@ -40,20 +40,22 @@ namespace ProjetoDevAcademy.Api.Controllers
 
         }
         [HttpPost("Login")]
-        public async Task<IActionResult> Login(LoginDto loginDto)
+        public async Task<IActionResult> Login([FromBody] LoginDto loginDto)
         {
-            var user = await _context.Usuarios.FirstOrDefaultAsync(
-                u => u.Email == loginDto.Email);
-            var passwordIsValid = BCrypt.Net.BCrypt.Verify
-                (loginDto.Password, user.PasswordHash);
+            var user = await _context.Usuarios.FirstOrDefaultAsync(u => u.Email == loginDto.Email);
 
+            var passwordIsValid = false;
+
+            if (user != null)
+            {
+                passwordIsValid = BCrypt.Net.BCrypt.Verify(loginDto.Password, user.PasswordHash);
+            }
             if (user != null && passwordIsValid)
             {
                 var token = CriarToken(user);
-                return Ok(new {token});
+                return Ok(new { Token = token });
             }
-            return Unauthorized(new {Mensagem ="Credenciais inválidos"});
-
+            return Unauthorized(new { Mensagem = "Usuario ou senha invalidos" });
         }
 
         private string CriarToken(Usuario usuario)

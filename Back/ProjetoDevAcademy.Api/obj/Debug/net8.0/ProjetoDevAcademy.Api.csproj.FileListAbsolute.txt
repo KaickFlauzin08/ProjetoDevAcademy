@@ -338,3 +338,4 @@ C:\Users\49240356886\source\repos\ProjetoDevAcademy\Back\ProjetoDevAcademy.Api\o
 C:\Users\49240356886\source\repos\ProjetoDevAcademy\Back\ProjetoDevAcademy.Api\obj\Debug\net8.0\ProjetoDevAcademy.Api.pdb
 C:\Users\49240356886\source\repos\ProjetoDevAcademy\Back\ProjetoDevAcademy.Api\obj\Debug\net8.0\ProjetoDevAcademy.Api.genruntimeconfig.cache
 C:\Users\49240356886\source\repos\ProjetoDevAcademy\Back\ProjetoDevAcademy.Api\obj\Debug\net8.0\ref\ProjetoDevAcademy.Api.dll
+C:\Users\49240356886\source\repos\ProjetoDevAcademy\Back\ProjetoDevAcademy.Api\obj\Debug\net8.0\ProjetoDevAcademy.Api.sourcelink.json

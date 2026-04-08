@@ -1,7 +1,3 @@
-Com base na estrutura de arquivos e no código que você compartilhou, preparei um **README.md** profissional e completo para o seu repositório. Ele destaca as tecnologias modernas (Inter font, Glassmorphism, CSS modernizado) e a organização do projeto.
-
----
-
 # 🚀 Projeto DevAcademy - Sistema de Autenticação
 
 Este é um projeto de interface de autenticação (Login e Cadastro) desenvolvido com foco em **UI/UX moderna**, utilizando práticas atuais de CSS e organização de código. O projeto faz parte do ecossistema de aprendizado da DevAcademy.
@@ -65,9 +61,3 @@ A tela de cadastro utiliza um cartão centralizado com sombreamento suave e camp
 ## ✒️ Autor
 
 * **Kaick Flauzin** - *Desenvolvimento Inicial* - [KaickFlauzin08](https://github.com/KaickFlauzin08)
-
----
-
-**Dica:** Você pode copiar o código acima, criar um arquivo chamado `README.md` na raiz do seu projeto e colar o conteúdo. 
-
-**Gostaria que eu adicionasse uma seção de "Contribuição" ou "Licença" específica para o seu repositório?**

@@ -4,45 +4,32 @@
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>DevAcademy - Acesso</title>
-      <link rel="stylesheet" href="style.css" />
+      <link rel="stylesheet" href="/Css/style.css" />
     </head>
     <body>
-      <div class="auth-container">
-        <div class="form-card">
-          <div id="mensagemBox"></div>
+<div class="auth-container">
+    <div class="form-card">
+        <div id="mensagemBox" style="display:none; margin-bottom: 10px;"></div>
 
-          <div id="login-section">
+        <div id="login-section">
             <h2>Bem-vindo de volta</h2>
-            <p class="subtitle">Entre com suas credenciais</p>
-
             <form id="formulario-login">
-              <div class="input-group">
-                <label for="email">Email</label>
-                <input
-                  type="email"
-                  id="email"
-                  required
-                  placeholder="seu@email.com"
-                />
-              </div>
-              <div class="input-group">
-                <label for="senha">Senha</label>
-                <input
-                  type="password"
-                  id="senha"
-                  required
-                  placeholder="••••••••"
-                />
-              </div>
-              <button id="bnt" type="submit" class="btn">Entrar</button>
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required placeholder="seu@email.com" />
+                </div>
+                <div class="input-group">
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" required placeholder="••••••••" />
+                </div>
+                <button id="bnt" type="submit" class="btn">Entrar</button>
             </form>
-
             <div class="switch-text">
-              Não tem uma conta?
-              <a class="btn-link" href="Cadastrar.html">Criar conta</a>
+                <p>Não tem uma conta? <a class="btn-link" href="Cadastrar.html">Criar conta</a></p>
             </div>
-          </div>
-
+        </div>
+    </div>
+</div>
           <!-- LOGIN -->
           <div id="dashboard-section" class="hidden" >
             <h2>Painel Protegido</h2>
@@ -51,8 +38,9 @@
             <button id="fetch-data-btn" class="btn">Buscar dados</button>
             <div id="api-data"></div>
             <button id="logout-btn" class="btn">Sair</button>
-            </div>
           </div>
+        </div>
+        
 
       <script src="script.js"></script>
     </body>
